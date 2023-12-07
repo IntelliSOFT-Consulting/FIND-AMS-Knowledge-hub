@@ -1,7 +1,14 @@
+import {Route, Routes} from "react-router-dom";
+import {routes} from "./routes.js";
+
 export default function App() {
     return (
-        <h1 className="text-3xl font-bold underline">
-            Hello world!
-        </h1>
+        <Routes>
+            {
+                routes.map(route => (
+                    <Route path={route.path} element={<route.component/>} key={route.path}/>
+                ))
+            }
+        </Routes>
     )
 }
