@@ -1,5 +1,10 @@
+import {Sidebar} from "../components/navs/Sidebar.jsx";
+
 export const IndexLayout = ({children}) => {
     return (
-        <>{children}</>
+        <div>
+            <Sidebar/>
+            {children}
+        </div>
     )
 }
