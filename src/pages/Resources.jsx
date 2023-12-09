@@ -4,6 +4,8 @@ import DataTable from 'react-data-table-component';
 import {KHInput} from "../components/fields/KHInput.jsx";
 import {KHOutlineButton} from "../components/cta/KHOutlineButton.jsx";
 import {tableData} from "../data/index.js";
+import {customStyles} from "../styles/table.js";
+import {NavLink} from "react-router-dom";
 
 export const Resources = () => {
 
@@ -66,7 +68,8 @@ export const Resources = () => {
             center: true,
             selector: row => (
                 <div className="flex gap-2  text-xs items-center">
-                    <a className="underline text-blue-500 italic" href="">View</a>
+                    <NavLink to={`/resources/${row.id}`} className="underline text-blue-500 italic"
+                             href="">View</NavLink>
                     <a className="underline text-blue-500 italic" href="">Actions</a>
                     <a className="underline text-blue-500 italic" href="">Download</a>
                     <a className="underline text-red-500 italic" href="">Delete</a>
@@ -75,31 +78,6 @@ export const Resources = () => {
         },
     ];
 
-
-    const customStyles = {
-        table: {
-            style: {
-                border: "1px solid #e5e7eb",
-                borderRadius: "6px",
-                padding: "3px",
-            }
-        },
-        head: {
-            style: {
-                fontSize: "14px"
-            }
-        },
-        rows: {
-            style: {
-                minHeight: "72px",
-            }
-        },
-        cells: {
-            style: {
-                maxWidth: "fit-content",
-            }
-        }
-    }
 
     return (
         <IndexLayout>

@@ -1,5 +1,6 @@
 import {Login} from "./pages/Login.jsx";
 import {Resources} from "./pages/Resources.jsx";
+import {ResourceDetails} from "./pages/ResourceDetails.jsx";
 
 export const routes = [
     {
@@ -9,6 +10,10 @@ export const routes = [
     {
         path: "/resources",
         component: Resources
+    },
+    {
+        path: "/resources/:id",
+        component: ResourceDetails
     },
 
 ]
