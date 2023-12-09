@@ -11,12 +11,12 @@ export default {
     },
     extend: {
       colors: {
-        info: "#1d5288"
+        info: "#1d5288",
+        lightInfo: "#0ea5e9",
+        smoke: "#E3EEF7",
       }
     },
   },
-  plugins: [
-    require('flowbite/plugin')
-  ]
+  plugins: []
 }
 

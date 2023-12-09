@@ -1,5 +1,9 @@
 import {IndexLayout} from "../layouts/IndexLayout.jsx";
 import {Folders} from "../components/navs/Folders.jsx";
+import DataTable from 'react-data-table-component';
+import {KHInput} from "../components/fields/KHInput.jsx";
+import {KHOutlineButton} from "../components/cta/KHOutlineButton.jsx";
+import {tableData} from "../data/index.js";
 
 export const Resources = () => {
 
@@ -43,10 +47,84 @@ export const Resources = () => {
         },
     ]
 
+    const columns = [
+        {
+            name: 'DOCUMENT NAME',
+            selector: row => row.title,
+        },
+        {
+            name: 'ADDED BY',
+            selector: row => row.addedBy,
+        },
+        {
+            name: 'DATE ADDED',
+            selector: row => row.createdAt,
+        },
+        {
+            name: 'ACTIONS',
+            allowOverflow: true,
+            center: true,
+            selector: row => (
+                <div className="flex gap-2  text-xs items-center">
+                    <a className="underline text-blue-500 italic" href="">View</a>
+                    <a className="underline text-blue-500 italic" href="">Actions</a>
+                    <a className="underline text-blue-500 italic" href="">Download</a>
+                    <a className="underline text-red-500 italic" href="">Delete</a>
+                </div>
+            ),
+        },
+    ];
+
+
+    const customStyles = {
+        table: {
+            style: {
+                border: "1px solid #e5e7eb",
+                borderRadius: "6px",
+                padding: "3px",
+            }
+        },
+        head: {
+            style: {
+                fontSize: "14px"
+            }
+        },
+        rows: {
+            style: {
+                minHeight: "72px",
+            }
+        },
+        cells: {
+            style: {
+                maxWidth: "fit-content",
+            }
+        }
+    }
+
     return (
         <IndexLayout>
-            <div className="grid md:grid-cols-3">
-                <Folders folders={folders} title="Categories"/>
+            <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 w-full">
+                <div className="flex col-span-1">
+                    <Folders folders={folders} title="Categories"/>
+                </div>
+                <div className="col-span-1 lg:col-span-3 w-full flex flex-col gap-6 bg-white p-4">
+                    <p className="underline text-2xl text-info">Resources</p>
+                    <div className="flex gap-4">
+                        <KHInput placeholder="Search using document name"/>
+                        <KHOutlineButton>SEARCH</KHOutlineButton>
+                    </div>
+                    <DataTable
+                        columns={columns}
+                        data={tableData}
+                        pointerOnHover
+                        subHeaderWrap
+                        subHeader
+                        striped
+                        responsive
+                        pagination
+                        customStyles={customStyles}
+                    />
+                </div>
             </div>
         </IndexLayout>
     )

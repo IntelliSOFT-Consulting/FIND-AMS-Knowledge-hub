@@ -1,6 +1,6 @@
 export const Sidebar = () => {
     return (
-        <div className="">
+        <div className="bg-white">
             <button data-drawer-target="default-sidebar" data-drawer-toggle="default-sidebar"
                     aria-controls="default-sidebar" type="button"
                     className="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 ">
@@ -15,8 +15,8 @@ export const Sidebar = () => {
             <aside
                 id="default-sidebar"
                 aria-label="Sidebar"
-                className="fixed lg:relative top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:-translate-x-0 ">
-                <div className="h-full px-3 py-4 overflow-y-auto  bg-gray-50">
+                className="fixed lg:relative top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:-translate-x-0 bg-white shadow-lg">
+                <div className="h-full px-3 py-4 overflow-y-auto ">
                     <ul className="space-y-6 font-medium">
                         <li>
                             <a href="#"
