@@ -1,7 +1,7 @@
 import {KHInput} from "../components/fields/KHInput.jsx";
 import {KHCheckbox} from "../components/fields/KHCheckbox.jsx";
-import {KHPrimaryButton} from "../components/cta/KHPrimaryButton.jsx";
 import {useLogin} from "../hooks/useLogin.js";
+import {KHButton} from "../components/cta/KHButton.jsx";
 
 export const Login = () => {
 
@@ -17,7 +17,7 @@ export const Login = () => {
                     <KHInput placeholder="Enter username"/>
                     <KHInput type="password" placeholder="Enter password"/>
                     <KHCheckbox label="Login using two factor authentication" name="2fa"/>
-                    <KHPrimaryButton>Sign in</KHPrimaryButton>
+                    <KHButton type="primary">Sign in</KHButton>
                 </form>
             </div>
 

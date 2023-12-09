@@ -2,10 +2,10 @@ import {IndexLayout} from "../layouts/IndexLayout.jsx";
 import {Folders} from "../components/navs/Folders.jsx";
 import DataTable from 'react-data-table-component';
 import {KHInput} from "../components/fields/KHInput.jsx";
-import {KHOutlineButton} from "../components/cta/KHOutlineButton.jsx";
 import {tableData} from "../data/index.js";
 import {customStyles} from "../styles/table.js";
 import {NavLink} from "react-router-dom";
+import {KHButton} from "../components/cta/KHButton.jsx";
 
 export const Resources = () => {
 
@@ -89,7 +89,7 @@ export const Resources = () => {
                     <p className="underline text-2xl text-info">Resources</p>
                     <div className="flex gap-4">
                         <KHInput placeholder="Search using document name"/>
-                        <KHOutlineButton>SEARCH</KHOutlineButton>
+                        <KHButton type="outline">SEARCH</KHButton>
                     </div>
                     <DataTable
                         columns={columns}
