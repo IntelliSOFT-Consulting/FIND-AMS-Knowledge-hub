@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3b87aaa5-e100-44c4-9036-d1981531d10a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/hooks/useResources.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/spinner/Spinner.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker/Dockerfile-nginx.dev" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker/Dockerfile.dev" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker/Dockerfile.prod" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/hooks/useAxios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker/nginx.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imgs/arrow-up-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/imgs/arrow-up-solid.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imgs/folder-plus-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/imgs/folder-plus-solid.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imgs/folder-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/imgs/folder-solid.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imgs/footer.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/imgs/footer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imgs/house-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/imgs/house-solid.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/anatomy.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/anatomy.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/card/KHCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/card/KHCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cta/KHButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/cta/KHButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fields/KHCheckbox.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/fields/KHCheckbox.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fields/KHInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/fields/KHInput.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navs/Folders.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/navs/Folders.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navs/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/navs/Sidebar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/data/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/hooks/useLogin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/IndexLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layouts/IndexLayout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ResourceDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/ResourceDetails.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Resources.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Resources.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2ZcaY3pB73f6ZML4tj4P533K04A" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ReactCreateComponentLastSelected": "arrowFunctionComponent",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "cra-template",
+    "last_opened_file_path": "C:/Users/piusk/Desktop/DEVELOPMENT/Learning/KH/client/public",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.3.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
+        <entry key="com.haulmont.rcb.reactInspector" value="false" />
+        <entry key="com.haulmont.rcb.storybook" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\piusk\Desktop\DEVELOPMENT\Learning\KH\client\public" />
+      <recent name="C:\Users\piusk\Desktop\DEVELOPMENT\Learning\KH\client\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\piusk\Desktop\DEVELOPMENT\Learning\KH" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b87aaa5-e100-44c4-9036-d1981531d10a" name="Changes" comment="" />
+      <created>1702723865858</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702723865858</updated>
+      <workItem from="1702723867012" duration="4450000" />
+      <workItem from="1702802494487" duration="1439000" />
+      <workItem from="1702902385762" duration="2202000" />
+      <workItem from="1702920118052" duration="5943000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="nginx.conf" />
+  </component>
+</project>
