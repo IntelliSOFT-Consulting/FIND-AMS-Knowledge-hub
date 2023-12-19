@@ -32,12 +32,25 @@ export const Resources = () => {
                 <div className="flex gap-2  text-xs items-center">
                     <NavLink to={`/resources/${row.id}`} className="underline text-blue-500 italic"
                              href="">View</NavLink>
+                    <div
+                        onClick={() => handleDownloads(row.id)}
+                        className="underline text-blue-500 italic">
+                        Download
+                    </div>
                 </div>
             ),
         },
     ];
 
-    const {resourcesLoading, tableRecords, filterByName, folders, setSearchString, searchString} = useResources()
+    const {
+        resourcesLoading,
+        tableRecords,
+        filterByName,
+        folders,
+        setSearchString,
+        searchString,
+        handleDownloads
+    } = useResources()
 
 
     return (

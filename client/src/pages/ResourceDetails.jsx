@@ -26,7 +26,7 @@ export const ResourceDetails = () => {
             <div className="flex flex-col md:flex-row md:justify-between w-full md:items-center gap-6">
                 <p className="text-lg font-light md:text-left">AMS KNOWLEDGE HUB</p>
                 <div className="flex items-center gap-4 md:gap-8 justify-between">
-                    {/*<KHButton handler={handleDownloads}  type="success">DOWNLOAD</KHButton>*/}
+                    <KHButton handler={handleDownloads}  type="success">DOWNLOAD</KHButton>
                     <KHButton handler={()=>navigate(-1)} type="outline">BACK</KHButton>
                 </div>
             </div>

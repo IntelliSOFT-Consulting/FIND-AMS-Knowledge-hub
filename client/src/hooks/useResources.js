@@ -1,5 +1,7 @@
 import {useAxios} from "./useAxios";
 import {useEffect, useState} from "react";
+import {saveAs} from "file-saver"
+
 
 const mainURl = '/tracker/events?page=1&pageSize=15&fields=dataValues%2CoccurredAt%2Cevent%2Cstatus%2CorgUnit%2Cprogram%2CprogramType%2CupdatedAt%2CcreatedAt%2CassignedUser%2C&program=rr6gVtIvBCH&orgUnit=p3FIxnPMytB&programStage=OV7fV2ObT2G&ouMode=SELECTED&order=occurredAt%3Adesc&filter=EmI6djhZ3mT%3Ain%3Apublic'
 
@@ -15,7 +17,16 @@ export const useResources = () => {
     const {makeRequest: getResources, loading: resourcesLoading, data: events, error} = useAxios()
 
 
-    const {makeRequest: getFolders, loading: foldersLoading, data: folderData} = useAxios()
+    const {makeRequest: getFolders, loading: foldersLoading, data: folderData, axiosInstance} = useAxios()
+
+    const handleDownloads = async (eventUid) => {
+        try {
+            const response = await axiosInstance.get(`events/files?dataElementUid=R9RfiJPgvJq&eventUid=${eventUid}`, {responseType: 'blob'})
+            saveAs(response.data, `${eventUid}.pdf`)
+        } catch (e) {
+            alert("Failed to download")
+        }
+    }
 
 
     const filterByFolder = (category) => {
@@ -117,6 +128,6 @@ export const useResources = () => {
     }, [events]);
 
 
-    return {resourcesLoading, error, tableRecords, getResources, filterByName, folders, setSearchString, searchString}
+    return {resourcesLoading, error, tableRecords, getResources, filterByName, folders, setSearchString, searchString, handleDownloads}
 
 }

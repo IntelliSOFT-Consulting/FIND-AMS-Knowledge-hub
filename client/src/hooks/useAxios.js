@@ -31,6 +31,6 @@ export const useAxios = () => {
     }
 
 
-    return {data, loading, error,status, makeRequest}
+    return {data, loading, error,status, makeRequest, axiosInstance}
 
 }

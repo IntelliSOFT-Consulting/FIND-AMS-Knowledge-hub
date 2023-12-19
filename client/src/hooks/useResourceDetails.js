@@ -1,6 +1,7 @@
 import {useAxios} from "./useAxios";
 import {useEffect} from "react";
 import {useParams} from "react-router-dom";
+import {saveAs} from "file-saver"
 
 const mainUrl = 'tracker/events/LcnFBk26yaP'
 
@@ -11,30 +12,19 @@ export const useResourceDetails = () => {
 
     const {makeRequest: getEventDetails, data, loading} = useAxios()
 
-    const {makeRequest: getPDF, data: pdfData, loading: pdfLoading} = useAxios()
-
-    const downloadPDF = async ({fileBlob, documentName}) => {
-        const downloadUrl = window.URL.createObjectURL(fileBlob)
-        const link = window.document.createElement("a")
-        link.href = downloadUrl
-        link.setAttribute('download', `${documentName}.pdf`)
-        window.document.body.appendChild(link)
-        link.click()
-    }
+    const {axiosInstance} = useAxios()
 
 
     const handleDownloads = async () => {
-        await downloadPDF({fileBlob: pdfData, documentName: eventUid})
+        try {
+            const response = await axiosInstance.get(`events/files?dataElementUid=R9RfiJPgvJq&eventUid=${eventUid}`, {responseType: 'blob'})
+            saveAs(response.data, `${eventUid}.pdf`)
+        } catch (e) {
+            alert("Failed to download")
+        }
     }
 
 
-    useEffect(() => {
-        if (data?.dataValues) {
-            getPDF({
-                url: `events/files?dataElementUid=R9RfiJPgvJq&eventUid=${eventUid}`,
-            })
-        }
-    }, [data]);
 
     const findObject = (dataElement) => {
         if (data?.dataValues) {
