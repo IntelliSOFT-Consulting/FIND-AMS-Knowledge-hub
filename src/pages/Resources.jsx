@@ -30,7 +30,7 @@ export const Resources = () => {
             center: true,
             selector: row => (
                 <div className="flex gap-2  text-xs items-center">
-                    <NavLink to={`/resources/${row.id}`} className="underline text-blue-500 italic"
+                    <NavLink to={`/${row.id}`} className="underline text-blue-500 italic"
                              href="">View</NavLink>
                     <div
                         onClick={() => handleDownloads(row.id)}

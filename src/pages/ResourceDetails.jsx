@@ -37,27 +37,30 @@ export const ResourceDetails = () => {
         <IndexLayout>
             <KHCard CardHeader={Header}>
                 <Spinner loading={loading} />
-                <div className="grid md:grid-cols-2 md:gap-24">
-                    <div className="flex flex-col w-full">
-                        <div className="grid grid-cols-3 border-2 divide-x text-xs col-start-1">
-                            <div className="col-span-1 p-4">Document name:</div>
-                            <div className="col-span-2 p-4 underline text-lightInfo">{findObject("Y5L81ZWwCrW")}
+                <div className="flex flex-col w-full md:gap-24">
+                    <div className="grid md:grid-cols-2 md:gap-24">
+                        <div className="flex flex-col w-full">
+                            <div className="grid grid-cols-3 border-2 divide-x text-xs col-start-1">
+                                <div className="col-span-1 p-4">Document name:</div>
+                                <div className="col-span-2 p-4 underline text-lightInfo">{findObject("Y5L81ZWwCrW")}
+                                </div>
+                            </div>
+                            <div className="grid grid-cols-3 border-2 divide-x text-xs col-start-1">
+                                <div className="col-span-1 p-4">Document permissions:</div>
+                                <div className="col-span-2 p-4">{findObject("EmI6djhZ3mT")}</div>
+                            </div>
+                            <div className="grid grid-cols-3 border-2 divide-x text-xs col-start-1">
+                                <div className="col-span-1 p-4">Category:</div>
+                                <div className="col-span-2 p-4">{findObject("Dt0Np7HNrph")}</div>
                             </div>
                         </div>
-                        <div className="grid grid-cols-3 border-2 divide-x text-xs col-start-1">
-                            <div className="col-span-1 p-4">Document permissions:</div>
-                            <div className="col-span-2 p-4">{findObject("EmI6djhZ3mT")}</div>
-                        </div>
-                        <div className="grid grid-cols-3 border-2 divide-x text-xs col-start-1">
-                            <div className="col-span-1 p-4">Category:</div>
-                            <div className="col-span-2 p-4">{findObject("Dt0Np7HNrph")}</div>
+                        <div className="grid grid-cols-3 border-2 divide-x text-xs">
+                            <div className="col-span-1 p-4">Description:</div>
+                            <div className="col-span-2 p-4">{findObject("TwGSelLiLaM")}
+                            </div>
                         </div>
                     </div>
-                    <div className="grid grid-cols-3 border-2 divide-x text-xs">
-                        <div className="col-span-1 p-4">Description:</div>
-                        <div className="col-span-2 p-4">{findObject("TwGSelLiLaM")}
-                        </div>
-                    </div>
+
 
                     <div className="w-full col-span-full mt-20">
                         <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">

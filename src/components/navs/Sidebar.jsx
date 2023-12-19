@@ -15,21 +15,12 @@ export const Sidebar = () => {
             <aside
                 id="default-sidebar"
                 aria-label="Sidebar"
-                className="fixed lg:relative top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:-translate-x-0 bg-white shadow-lg">
+                className="fixed md:relative top-0 left-0 z-50 w-64 h-screen transition-transform -translate-x-full sm:-translate-x-0 bg-white shadow-lg">
                 <div className="h-full px-3 py-4 overflow-y-auto ">
                     <ul className="space-y-6 font-medium">
-                        <li>
-                            <a href="/"
-                               className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group">
-                                <img
-                                    className="w-5 h-5 text-gray-500 transition duration-75 group-hover:text-gray-900"
-                                    src="/imgs/house-solid.svg" alt=""/>
-                                <span className="ms-3 text-sm font-normal">HOME</span>
-                            </a>
-                        </li>
 
                         <li>
-                            <a href="resources"
+                            <a href="/"
                                className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
 
                                 <img
