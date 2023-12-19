@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b87aaa5-e100-44c4-9036-d1981531d10a" name="Changes" comment="file view">
-      <change beforePath="$PROJECT_DIR$/client/src/components/navs/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/navs/Sidebar.jsx" afterDir="false" />
+    <list default="true" id="3b87aaa5-e100-44c4-9036-d1981531d10a" name="Changes" comment="Sidebar views">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/hooks/useResourceDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/hooks/useResourceDetails.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +88,7 @@
       <workItem from="1702723867012" duration="4450000" />
       <workItem from="1702802494487" duration="1439000" />
       <workItem from="1702902385762" duration="2202000" />
-      <workItem from="1702920118052" duration="8859000" />
+      <workItem from="1702920118052" duration="9216000" />
     </task>
     <task id="LOCAL-00001" summary="Resources page">
       <option name="closed" value="true" />
@@ -113,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702929096151</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Sidebar views">
+      <option name="closed" value="true" />
+      <created>1702929172579</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702929172579</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +135,7 @@
     <MESSAGE value="Resources page" />
     <MESSAGE value="Removed redundant assets" />
     <MESSAGE value="file view" />
-    <option name="LAST_COMMIT_MESSAGE" value="file view" />
+    <MESSAGE value="Sidebar views" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sidebar views" />
   </component>
 </project>

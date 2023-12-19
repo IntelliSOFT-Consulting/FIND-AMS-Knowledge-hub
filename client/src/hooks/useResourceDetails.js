@@ -31,7 +31,7 @@ export const useResourceDetails = () => {
     useEffect(() => {
         if (data?.dataValues) {
             getPDF({
-                url: `events/files?dataElementUid=R9RfiJPgvJq&eventUid=${eventUid}`
+                url: `events/files?dataElementUid=R9RfiJPgvJq&eventUid=${eventUid}`,
             })
         }
     }, [data]);
