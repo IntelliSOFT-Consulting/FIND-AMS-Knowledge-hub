@@ -4,53 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b87aaa5-e100-44c4-9036-d1981531d10a" name="Changes" comment="Download functionality">
+    <list default="true" id="3b87aaa5-e100-44c4-9036-d1981531d10a" name="Changes" comment="Folder structure">
+      <change afterPath="$PROJECT_DIR$/src/hooks/useDataElements.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/Docker/Dockerfile-nginx.dev" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/Docker/Dockerfile.dev" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/Docker/Dockerfile.prod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/Docker/nginx.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/docker-compose.dev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/imgs/arrow-up-solid.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/imgs/folder-plus-solid.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/imgs/folder-solid.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/imgs/footer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/imgs/house-solid.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/anatomy.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/card/KHCard.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/cta/KHButton.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/fields/KHCheckbox.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/fields/KHInput.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/navs/Folders.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/navs/Sidebar.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/spinner/Spinner.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/data/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/hooks/useAxios.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/hooks/useFileOps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/hooks/useLogin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/hooks/useResourceDetails.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/hooks/useResources.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/layouts/IndexLayout.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Login.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/ResourceDetails.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Resources.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/styles/table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useResourceDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useResourceDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/IndexLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/IndexLayout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Resources.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Resources.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +92,8 @@
       <workItem from="1702802494487" duration="1439000" />
       <workItem from="1702902385762" duration="2202000" />
       <workItem from="1702920118052" duration="11586000" />
-      <workItem from="1702965534314" duration="468000" />
+      <workItem from="1702965534314" duration="1136000" />
+      <workItem from="1703046611239" duration="5496000" />
     </task>
     <task id="LOCAL-00001" summary="Resources page">
       <option name="closed" value="true" />
@@ -183,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702963875650</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Folder structure">
+      <option name="closed" value="true" />
+      <created>1702966082875</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702966082876</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +167,7 @@
     <MESSAGE value="Sidebar views" />
     <MESSAGE value="milestone" />
     <MESSAGE value="Download functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Download functionality" />
+    <MESSAGE value="Folder structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Folder structure" />
   </component>
 </project>

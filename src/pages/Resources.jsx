@@ -26,8 +26,6 @@ export const Resources = () => {
         },
         {
             name: 'ACTIONS',
-            allowOverflow: true,
-            center: true,
             selector: row => (
                 <div className="flex gap-2  text-xs items-center">
                     <NavLink to={`/${row.id}`} className="underline text-blue-500 italic"

@@ -2,8 +2,8 @@ import {useAxios} from "./useAxios";
 import {useEffect} from "react";
 import {useParams} from "react-router-dom";
 import {saveAs} from "file-saver"
+import {useDataElements} from "./useDataElements";
 
-const mainUrl = 'tracker/events/LcnFBk26yaP'
 
 export const useResourceDetails = () => {
 
@@ -12,12 +12,14 @@ export const useResourceDetails = () => {
 
     const {makeRequest: getEventDetails, data, loading} = useAxios()
 
+    const {getDataElementByName} = useDataElements()
+
     const {axiosInstance} = useAxios()
 
 
     const handleDownloads = async () => {
         try {
-            const response = await axiosInstance.get(`events/files?dataElementUid=R9RfiJPgvJq&eventUid=${eventUid}`, {responseType: 'blob'})
+            const response = await axiosInstance.get(`events/files?dataElementUid=${getDataElementByName("file").id}&eventUid=${eventUid}`, {responseType: 'blob'})
             saveAs(response.data, `${eventUid}.pdf`)
         } catch (e) {
             alert("Failed to download")
@@ -34,7 +36,7 @@ export const useResourceDetails = () => {
 
     useEffect(() => {
         getEventDetails({
-            url: mainUrl,
+            url: `tracker/events/${eventUid}`,
             method: "GET"
         })
     }, []);
