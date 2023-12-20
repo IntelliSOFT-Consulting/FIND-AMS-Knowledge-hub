@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b87aaa5-e100-44c4-9036-d1981531d10a" name="Changes" comment="Folder structure">
-      <change afterPath="$PROJECT_DIR$/src/hooks/useDataElements.js" afterDir="false" />
+    <list default="true" id="3b87aaa5-e100-44c4-9036-d1981531d10a" name="Changes" comment="Bug fix:  removed hardcoded url on the resource details page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useResourceDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useResourceDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/IndexLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/IndexLayout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Resources.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Resources.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useResources.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useResources.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +90,7 @@
       <workItem from="1702902385762" duration="2202000" />
       <workItem from="1702920118052" duration="11586000" />
       <workItem from="1702965534314" duration="1136000" />
-      <workItem from="1703046611239" duration="5496000" />
+      <workItem from="1703046611239" duration="6932000" />
     </task>
     <task id="LOCAL-00001" summary="Resources page">
       <option name="closed" value="true" />
@@ -151,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702966082876</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Bug fix:  removed hardcoded url on the resource details page">
+      <option name="closed" value="true" />
+      <created>1703057661112</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703057661112</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +173,7 @@
     <MESSAGE value="milestone" />
     <MESSAGE value="Download functionality" />
     <MESSAGE value="Folder structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Folder structure" />
+    <MESSAGE value="Bug fix:  removed hardcoded url on the resource details page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug fix:  removed hardcoded url on the resource details page" />
   </component>
 </project>
