@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  knowledge-hub:
+    container_name: knowledge-hub
+    build:
+      context: .
+      dockerfile: Docker/Dockerfile.prod
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+    env_file:
+      - .env
+    ports:
+      - 80:80

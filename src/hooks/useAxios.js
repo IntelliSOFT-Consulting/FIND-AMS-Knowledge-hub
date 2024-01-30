@@ -10,11 +10,10 @@ export const useAxios = () => {
 
 
     const axiosInstance = axios.create({
-        baseURL: process.env.REACT_APP_BASE_URL,
-        auth: {
-            username: process.env.REACT_APP_USERNAME,
-            password: process.env.REACT_APP_PASSWORD,
-        }
+        baseURL: `${window.location.origin}/api/40/`,
+        headers: {
+            Authorization: `ApiToken ${process.env.REACT_APP_API_TOKEN}`
+        },
     })
 
     const makeRequest = async (config) => {
