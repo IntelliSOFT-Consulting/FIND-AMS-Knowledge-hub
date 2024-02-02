@@ -12,7 +12,7 @@ export const routes = [
         component: Resources
     },
     {
-        path: "/resources/:id",
+        path: "/resources/:eventUid",
         component: ResourceDetails
     },
 
