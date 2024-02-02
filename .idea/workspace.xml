@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b3910546-d9ef-4e99-9b98-802dd357876f" name="Changes" comment="Milestone">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker/Dockerfile-nginx.dev" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker/Dockerfile.dev" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker/Dockerfile.prod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker/nginx.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/Docker/Dockerfile-nginx.dev" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/Docker/Dockerfile.dev" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/Docker/Dockerfile.prod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/Docker/nginx.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/docker-compose.dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imgs/arrow-up-solid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imgs/folder-plus-solid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imgs/folder-solid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imgs/footer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imgs/house-solid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/anatomy.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/card/KHCard.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cta/KHButton.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fields/KHCheckbox.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fields/KHInput.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navs/Folders.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navs/Sidebar.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useLogin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/IndexLayout.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ResourceDetails.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Resources.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2ZCnGiH77nPDLLygW6u0zIrnY3T" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ReactCreateComponentLastSelected": "arrowFunctionComponent",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "cra-template",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/piusk/Desktop/DEVELOPMENT/Learning/KH",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
+        <entry key="com.haulmont.rcb.reactInspector" value="false" />
+        <entry key="com.haulmont.rcb.storybook" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\piusk\Desktop\DEVELOPMENT\IntelliSOFT\KNOWLEDGE-HUB\client\public" />
+      <recent name="C:\Users\piusk\Desktop\DEVELOPMENT\IntelliSOFT\KNOWLEDGE-HUB\client\src" />
+      <recent name="C:\Users\piusk\Desktop\DEVELOPMENT\IntelliSOFT\KNOWLEDGE-HUB\client" />
+      <recent name="C:\Users\piusk\Desktop\DEVELOPMENT\IntelliSOFT\KNOWLEDGE-HUB\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\piusk\Desktop\DEVELOPMENT\IntelliSOFT\KNOWLEDGE-HUB" />
+      <recent name="C:\Users\piusk\Desktop\DEVELOPMENT\IntelliSOFT\KNOWLEDGE-HUB\src\assets" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Dockerfile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3910546-d9ef-4e99-9b98-802dd357876f" name="Changes" comment="" />
+      <created>1701934834954</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701934834954</updated>
+      <workItem from="1701934835978" duration="6453000" />
+      <workItem from="1702016383406" duration="14013000" />
+      <workItem from="1702056974840" duration="1772000" />
+      <workItem from="1702105846286" duration="9103000" />
+      <workItem from="1702271294739" duration="1029000" />
+      <workItem from="1702459995336" duration="721000" />
+      <workItem from="1702529429089" duration="109000" />
+      <workItem from="1702553557357" duration="737000" />
+      <workItem from="1702574796432" duration="4163000" />
+      <workItem from="1702579053420" duration="9582000" />
+      <workItem from="1702591882348" duration="9694000" />
+      <workItem from="1702631216492" duration="971000" />
+      <workItem from="1702721027107" duration="1171000" />
+      <workItem from="1702722264513" duration="4239000" />
+    </task>
+    <task id="LOCAL-00001" summary="Application setup">
+      <option name="closed" value="true" />
+      <created>1701935963435</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701935963435</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Login page">
+      <option name="closed" value="true" />
+      <created>1701954253538</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701954253538</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Index layout">
+      <option name="closed" value="true" />
+      <created>1702016735381</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702016735381</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Sidebar">
+      <option name="closed" value="true" />
+      <created>1702019628794</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702019628794</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Folders">
+      <option name="closed" value="true" />
+      <created>1702032157851</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702032157851</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Resources view">
+      <option name="closed" value="true" />
+      <created>1702108076134</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702108076134</updated>
+    </task>
+    <task id="LOCAL-00007" summary="File view">
+      <option name="closed" value="true" />
+      <created>1702119511329</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702119511329</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Refactor removed buttons">
+      <option name="closed" value="true" />
+      <created>1702119701690</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702119701690</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Milestone">
+      <option name="closed" value="true" />
+      <created>1702625546843</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702625546844</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="nginx.conf" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Application setup" />
+    <MESSAGE value="Login page" />
+    <MESSAGE value="Index layout" />
+    <MESSAGE value="Sidebar" />
+    <MESSAGE value="Folders" />
+    <MESSAGE value="Resources view" />
+    <MESSAGE value="File view" />
+    <MESSAGE value="Refactor removed buttons" />
+    <MESSAGE value="Milestone" />
+    <option name="LAST_COMMIT_MESSAGE" value="Milestone" />
+  </component>
+</project>
