@@ -8,9 +8,12 @@ import { defaultLayoutPlugin } from "@react-pdf-viewer/default-layout";
 import { useNavigate } from "react-router-dom";
 import { useResourceDetails } from "../hooks/useResourceDetails";
 import { Spinner } from "../components/spinner/Spinner";
+import {useDataElements} from "../hooks/useDataElements";
 
 export const ResourceDetails = () => {
   const { loading, findObject, eventUid, handleDownloads } = useResourceDetails();
+  const {getDataElementByName} = useDataElements()
+
 
   const defaultLayoutPluginInstance = defaultLayoutPlugin();
 
@@ -67,7 +70,7 @@ export const ResourceDetails = () => {
                   Authorization: `ApiToken ${process.env.REACT_APP_API_TOKEN}`,
                 }}
                 plugins={[defaultLayoutPluginInstance]}
-                fileUrl={`${window.location.origin}/api/40/events/files?dataElementUid=R9RfiJPgvJq&eventUid=${eventUid}`}
+                fileUrl={`${process.env.REACT_APP_BASE_URL}events/files?dataElementUid=${getDataElementByName("file")?.id}&eventUid=${eventUid}`}
               />
             </Worker>
           </div>

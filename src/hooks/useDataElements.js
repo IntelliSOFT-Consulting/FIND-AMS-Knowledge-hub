@@ -23,7 +23,7 @@ export const useDataElements = () => {
         } catch (e) {
             Swal.fire({
                 icon: "error",
-                text: "Network error"
+                text: "Network error",
             })
         }
     }
