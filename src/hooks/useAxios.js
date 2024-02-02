@@ -10,7 +10,8 @@ export const useAxios = () => {
 
 
     const axiosInstance = axios.create({
-        baseURL: `${window.location.origin}/api/40/`,
+        // baseURL: `${window.location.origin}/api/40/`,
+        baseURL: `${process.env.REACT_APP_BASE_URL}/api/40/`,
         headers: {
             Authorization: `ApiToken ${process.env.REACT_APP_API_TOKEN}`
         },

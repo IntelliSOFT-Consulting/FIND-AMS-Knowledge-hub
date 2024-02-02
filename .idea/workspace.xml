@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b87aaa5-e100-44c4-9036-d1981531d10a" name="Changes" comment="Bug fix:  removed hardcoded url on the resource details page">
+    <list default="true" id="b3910546-d9ef-4e99-9b98-802dd357876f" name="Changes" comment="Milestone">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useResources.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useResources.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useAxios.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useAxios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useDataElements.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useDataElements.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +34,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
+  &quot;associatedIndex&quot;: 0
 }</component>
-  <component name="ProjectId" id="2ZcaY3pB73f6ZML4tj4P533K04A" />
+  <component name="ProjectId" id="2ZCnGiH77nPDLLygW6u0zIrnY3T" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -42,23 +44,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ReactCreateComponentLastSelected&quot;: &quot;arrowFunctionComponent&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/piusk/Desktop/DEVELOPMENT/Learning/KH/client/public&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.3.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ReactCreateComponentLastSelected": "arrowFunctionComponent",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/piusk/Desktop/DEVELOPMENT/IntelliSOFT/DHIS2/DHIS2-docker-compose",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -70,93 +72,134 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\piusk\Desktop\DEVELOPMENT\Learning\KH\client\public" />
-      <recent name="C:\Users\piusk\Desktop\DEVELOPMENT\Learning\KH\client\src" />
+      <recent name="C:\Users\piusk\Desktop\DEVELOPMENT\IntelliSOFT\KNOWLEDGE-HUB\client\public" />
+      <recent name="C:\Users\piusk\Desktop\DEVELOPMENT\IntelliSOFT\KNOWLEDGE-HUB\client\src" />
+      <recent name="C:\Users\piusk\Desktop\DEVELOPMENT\IntelliSOFT\KNOWLEDGE-HUB\client" />
+      <recent name="C:\Users\piusk\Desktop\DEVELOPMENT\IntelliSOFT\KNOWLEDGE-HUB\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\piusk\Desktop\DEVELOPMENT\Learning\KH" />
+      <recent name="C:\Users\piusk\Desktop\DEVELOPMENT\IntelliSOFT\KNOWLEDGE-HUB" />
+      <recent name="C:\Users\piusk\Desktop\DEVELOPMENT\IntelliSOFT\KNOWLEDGE-HUB\src\assets" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Docker.Dockerfile" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3b87aaa5-e100-44c4-9036-d1981531d10a" name="Changes" comment="" />
-      <created>1702723865858</created>
+      <changelist id="b3910546-d9ef-4e99-9b98-802dd357876f" name="Changes" comment="" />
+      <created>1701934834954</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1702723865858</updated>
-      <workItem from="1702723867012" duration="4450000" />
-      <workItem from="1702802494487" duration="1439000" />
-      <workItem from="1702902385762" duration="2202000" />
-      <workItem from="1702920118052" duration="11586000" />
-      <workItem from="1702965534314" duration="1136000" />
-      <workItem from="1703046611239" duration="6932000" />
+      <updated>1701934834954</updated>
+      <workItem from="1701934835978" duration="6453000" />
+      <workItem from="1702016383406" duration="14013000" />
+      <workItem from="1702056974840" duration="1772000" />
+      <workItem from="1702105846286" duration="9103000" />
+      <workItem from="1702271294739" duration="1029000" />
+      <workItem from="1702459995336" duration="721000" />
+      <workItem from="1702529429089" duration="109000" />
+      <workItem from="1702553557357" duration="737000" />
+      <workItem from="1702574796432" duration="4163000" />
+      <workItem from="1702579053420" duration="9582000" />
+      <workItem from="1702591882348" duration="9694000" />
+      <workItem from="1702631216492" duration="971000" />
+      <workItem from="1702721027107" duration="1171000" />
+      <workItem from="1702722264513" duration="4239000" />
     </task>
-    <task id="LOCAL-00001" summary="Resources page">
+    <task id="LOCAL-00001" summary="Application setup">
       <option name="closed" value="true" />
-      <created>1702926266676</created>
+      <created>1701935963435</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1702926266676</updated>
+      <updated>1701935963435</updated>
     </task>
-    <task id="LOCAL-00002" summary="Removed redundant assets">
+    <task id="LOCAL-00002" summary="Login page">
       <option name="closed" value="true" />
-      <created>1702926324503</created>
+      <created>1701954253538</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1702926324503</updated>
+      <updated>1701954253538</updated>
     </task>
-    <task id="LOCAL-00003" summary="file view">
+    <task id="LOCAL-00003" summary="Index layout">
       <option name="closed" value="true" />
-      <created>1702929096151</created>
+      <created>1702016735381</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1702929096151</updated>
+      <updated>1702016735381</updated>
     </task>
-    <task id="LOCAL-00004" summary="Sidebar views">
+    <task id="LOCAL-00004" summary="Sidebar">
       <option name="closed" value="true" />
-      <created>1702929172579</created>
+      <created>1702019628794</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1702929172579</updated>
+      <updated>1702019628794</updated>
     </task>
-    <task id="LOCAL-00005" summary="milestone">
+    <task id="LOCAL-00005" summary="Folders">
       <option name="closed" value="true" />
-      <created>1702962790669</created>
+      <created>1702032157851</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1702962790669</updated>
+      <updated>1702032157851</updated>
     </task>
-    <task id="LOCAL-00006" summary="Download functionality">
+    <task id="LOCAL-00006" summary="Resources view">
       <option name="closed" value="true" />
-      <created>1702963875650</created>
+      <created>1702108076134</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1702963875650</updated>
+      <updated>1702108076134</updated>
     </task>
-    <task id="LOCAL-00007" summary="Folder structure">
+    <task id="LOCAL-00007" summary="File view">
       <option name="closed" value="true" />
-      <created>1702966082875</created>
+      <created>1702119511329</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1702966082876</updated>
+      <updated>1702119511329</updated>
     </task>
-    <task id="LOCAL-00008" summary="Bug fix:  removed hardcoded url on the resource details page">
+    <task id="LOCAL-00008" summary="Refactor removed buttons">
       <option name="closed" value="true" />
-      <created>1703057661112</created>
+      <created>1702119701690</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1703057661112</updated>
+      <updated>1702119701690</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Milestone">
+      <option name="closed" value="true" />
+      <created>1702625546843</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702625546844</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,14 +209,15 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="nginx.conf" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Resources page" />
-    <MESSAGE value="Removed redundant assets" />
-    <MESSAGE value="file view" />
-    <MESSAGE value="Sidebar views" />
-    <MESSAGE value="milestone" />
-    <MESSAGE value="Download functionality" />
-    <MESSAGE value="Folder structure" />
-    <MESSAGE value="Bug fix:  removed hardcoded url on the resource details page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug fix:  removed hardcoded url on the resource details page" />
+    <MESSAGE value="Application setup" />
+    <MESSAGE value="Login page" />
+    <MESSAGE value="Index layout" />
+    <MESSAGE value="Sidebar" />
+    <MESSAGE value="Folders" />
+    <MESSAGE value="Resources view" />
+    <MESSAGE value="File view" />
+    <MESSAGE value="Refactor removed buttons" />
+    <MESSAGE value="Milestone" />
+    <option name="LAST_COMMIT_MESSAGE" value="Milestone" />
   </component>
 </project>

@@ -1,5 +1,7 @@
 import {useAxios} from "./useAxios";
 import {useEffect, useState} from "react";
+import Swal from "sweetalert2"
+
 
 const firstPageUrl = `dataElements?filter=name:ne:default&fields=displayName%2CshortName%2Cid%2ClastUpdated%2Ccreated%2CdisplayDescription%2Ccode%2CpublicAccess%2Caccess%2Chref%2Clevel%2CdisplayName%2CdomainType%2CvalueType%2CcategoryCombo%5BdisplayName%5D%2ClastUpdated%2C&order=displayName%3AASC`
 
@@ -19,7 +21,10 @@ export const useDataElements = () => {
                 getAllDataElements(response.data.pager.nextPage)
 
         } catch (e) {
-            alert("Couldn't fetch data elements")
+            Swal.fire({
+                icon: "error",
+                text: "Network error"
+            })
         }
     }
 
