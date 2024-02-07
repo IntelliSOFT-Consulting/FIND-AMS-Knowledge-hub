@@ -1,5 +1,5 @@
 import {useAxios} from "./useAxios";
-import {useEffect} from "react";
+import {useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
 import {saveAs} from "file-saver"
 import {useDataElements} from "./useDataElements";
@@ -9,6 +9,7 @@ export const useResourceDetails = () => {
 
     const {eventUid} = useParams()
 
+    const [fileDataElementId, setFileDataElementId] = useState("")
 
     const {makeRequest: getEventDetails, data, loading} = useAxios()
 
@@ -36,11 +37,15 @@ export const useResourceDetails = () => {
 
     useEffect(() => {
         getEventDetails({
-            url: `tracker/events/${eventUid}`,
+            url: `/api/40/tracker/events/${eventUid}`,
             method: "GET"
         })
     }, []);
 
-    return {data, loading, findObject, eventUid, handleDownloads}
+    useEffect(() => {
+        setFileDataElementId(getDataElementByName("file")?.id)
+    }, [eventUid]);
+
+    return {data, loading, findObject, eventUid, handleDownloads, fileDataElementId}
 
 }
