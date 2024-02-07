@@ -19,7 +19,7 @@ export const useResourceDetails = () => {
 
     const handleDownloads = async () => {
         try {
-            const response = await axiosInstance.get(`events/files?dataElementUid=${getDataElementByName("file").id}&eventUid=${eventUid}`, {responseType: 'blob'})
+            const response = await axiosInstance.get(`/api/40/events/files?dataElementUid=${getDataElementByName("file").id}&eventUid=${eventUid}`, {responseType: 'blob'})
             saveAs(response.data, `${eventUid}.pdf`)
         } catch (e) {
             alert("Failed to download")

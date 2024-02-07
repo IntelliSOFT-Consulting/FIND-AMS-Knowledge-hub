@@ -70,7 +70,7 @@ export const ResourceDetails = () => {
                   Authorization: `ApiToken ${process.env.REACT_APP_API_TOKEN}`,
                 }}
                 plugins={[defaultLayoutPluginInstance]}
-                fileUrl={`${process.env.REACT_APP_BASE_URL}events/files?dataElementUid=${getDataElementByName("file")?.id}&eventUid=${eventUid}`}
+                fileUrl={`/api/40/events/files?dataElementUid=${getDataElementByName("file")?.id}&eventUid=${eventUid}`}
               />
             </Worker>
           </div>
