@@ -8,9 +8,12 @@ import { defaultLayoutPlugin } from "@react-pdf-viewer/default-layout";
 import { useNavigate } from "react-router-dom";
 import { useResourceDetails } from "../hooks/useResourceDetails";
 import { Spinner } from "../components/spinner/Spinner";
+import {useDataElements} from "../hooks/useDataElements";
 
 export const ResourceDetails = () => {
   const { loading, findObject, eventUid, handleDownloads } = useResourceDetails();
+  const {getDataElementByName, dataElements} = useDataElements()
+
 
   const defaultLayoutPluginInstance = defaultLayoutPlugin();
 
@@ -58,19 +61,22 @@ export const ResourceDetails = () => {
             </div>
           </div>
 
-          <div className="w-full col-span-full mt-20">
-            <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
-              <Viewer
-                id="viewer"
-                withCredentials={true}
-                httpHeaders={{
-                  Authorization: `ApiToken ${process.env.REACT_APP_API_TOKEN}`,
-                }}
-                plugins={[defaultLayoutPluginInstance]}
-                fileUrl={`${window.location.origin}/api/40/events/files?dataElementUid=R9RfiJPgvJq&eventUid=${eventUid}`}
-              />
-            </Worker>
-          </div>
+            {dataElements.length > 0 && (
+                    <div className="w-full col-span-full mt-20">
+                        <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
+                            <Viewer
+                                id="viewer"
+                                withCredentials={true}
+                                httpHeaders={{
+                                    Authorization: `ApiToken ${process.env.REACT_APP_API_TOKEN}`,
+                                }}
+                                plugins={[defaultLayoutPluginInstance]}
+                                fileUrl={`/api/40/events/files?dataElementUid=${getDataElementByName("file")?.id}&eventUid=${eventUid}`}
+                            />
+                        </Worker>
+                    </div>
+                )
+            }
         </div>
       </KHCard>
     </IndexLayout>

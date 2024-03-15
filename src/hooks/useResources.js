@@ -4,9 +4,9 @@ import {saveAs} from "file-saver"
 import {useDataElements} from "./useDataElements";
 
 
-const mainURl = '/tracker/events?page=1&pageSize=15&fields=dataValues%2CoccurredAt%2Cevent%2Cstatus%2CorgUnit%2Cprogram%2CprogramType%2CupdatedAt%2CcreatedAt%2CassignedUser%2C&program=rr6gVtIvBCH&orgUnit=p3FIxnPMytB&programStage=OV7fV2ObT2G&ouMode=SELECTED&order=occurredAt%3Adesc&filter=EmI6djhZ3mT%3Ain%3Apublic'
+const mainURl = '/api/40/tracker/events?page=1&pageSize=15&fields=dataValues%2CoccurredAt%2Cevent%2Cstatus%2CorgUnit%2Cprogram%2CprogramType%2CupdatedAt%2CcreatedAt%2CassignedUser%2C&program=rr6gVtIvBCH&orgUnit=p3FIxnPMytB&programStage=OV7fV2ObT2G&ouMode=SELECTED&order=occurredAt%3Adesc&filter=EmI6djhZ3mT%3Ain%3Apublic'
 
-const foldersUrl = '/optionSets/jEWWVttiexg?fields=%3Aall%2CattributeValues%5B%3Aall%2Cattribute%5Bid%2Cname%2CdisplayName%5D%5D%2Coptions%5Bid%2Cname%2CdisplayName%2Ccode%2Cstyle%5D'
+const foldersUrl = '/api/40/optionSets/jEWWVttiexg?fields=%3Aall%2CattributeValues%5B%3Aall%2Cattribute%5Bid%2Cname%2CdisplayName%5D%5D%2Coptions%5Bid%2Cname%2CdisplayName%2Ccode%2Cstyle%5D'
 
 export const useResources = () => {
 
@@ -24,7 +24,7 @@ export const useResources = () => {
 
     const handleDownloads = async (eventUid) => {
         try {
-            const response = await axiosInstance.get(`events/files?dataElementUid=${getDataElementByName("file").id}&eventUid=${eventUid}`, {responseType: 'blob'})
+            const response = await axiosInstance.get(`/api/40/events/files?dataElementUid=${getDataElementByName("file").id}&eventUid=${eventUid}`, {responseType: 'blob'})
             saveAs(response.data, `${eventUid}.pdf`)
         } catch (e) {
             alert("Failed to download")
